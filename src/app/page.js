@@ -19,25 +19,18 @@ export default function Home() {
                 The elegance of simplicity.
             </p>
 
-            {/* Buttons */}
-            <div className="flex gap-6 mt-10">
+            {/* Button */}
+            <div className="flex mt-10">
                 <a
                     href="/DotCoin_Whitepaper.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-6 py-2 border border-[#d4af37] text-[#004225] hover:bg-[#d4af37] hover:text-white transition rounded"
+                    className="px-10 py-3 border border-[#d4af37] text-[#004225] hover:bg-[#d4af37] hover:text-white transition rounded"
                 >
                     Whitepaper
                 </a>
-                <a
-                    href=""
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-6 py-2 border border-[#004225] text-[#004225] hover:bg-[#004225] hover:text-white transition rounded"
-                >
-                    Community
-                </a>
             </div>
+
 
             {/* Footer */}
             <footer className="mt-16 text-[#555] text-sm text-center">
