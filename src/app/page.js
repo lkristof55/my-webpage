@@ -4,7 +4,7 @@ export default function Home() {
 
             {/* CA text in top-right corner */}
             <div className="absolute top-4 right-6 text-sm tracking-wide text-[#004225] font-semibold">
-                CA: <span className="text-[#d4af37]">0xYourContractAddressHere</span>
+                CA: <span className="text-[#d4af37]">71Vjwjd2i5ic48PDsy9Eufj1MCkzVysG7uixSBXpzwwZ</span>
             </div>
 
             {/* Decorative side elements */}
