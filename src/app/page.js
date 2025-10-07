@@ -2,6 +2,11 @@ export default function Home() {
     return (
         <main className="relative bg-[#f8f5f0] text-[#1a1a1a] min-h-screen flex flex-col items-center justify-center font-serif px-6">
 
+            {/* CA text in top-right corner */}
+            <div className="absolute top-4 right-6 text-sm tracking-wide text-[#004225] font-semibold">
+                CA: <span className="text-[#d4af37]">0xYourContractAddressHere</span>
+            </div>
+
             {/* Decorative side elements */}
             <div className="absolute left-4 top-1/4 h-1/2 w-px bg-[#d4af37] opacity-40"></div>
             <div className="absolute right-4 top-1/4 h-1/2 w-px bg-[#d4af37] opacity-40"></div>
@@ -30,7 +35,6 @@ export default function Home() {
                     Whitepaper
                 </a>
             </div>
-
 
             {/* Footer */}
             <footer className="mt-16 text-[#555] text-sm text-center">

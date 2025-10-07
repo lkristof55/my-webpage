@@ -4,7 +4,9 @@ export const metadata = {
     title: "DotCoin",
     description: "One coin. One dot. Infinite meaning.",
     icons: {
-        icon: "/favicon.ico", // koristi logo iz public/ foldera
+        icon: "/DotCoin_Logo.png",      // tvoj logo u public/
+        shortcut: "/DotCoin_Logo.png",
+        apple: "/DotCoin_Logo.png",
     },
 };
 
